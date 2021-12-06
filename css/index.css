@@ -9,11 +9,6 @@
   padding-top: 10vh;
 }
 
-/* makes code text in the title white */
-.title code{
-  color: white;
-}
-
 /* properly aligns and colors the intro text */
 .intro-text{
   text-align: center;

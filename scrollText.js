@@ -1,5 +1,5 @@
 // The time between letters
-const timerLength = 100;
+const timerLength = 70;
 
 // finds the element containing the text, sets that text to another variable, then an array, then clears the text in the element.
 var scrollTextElem = document.getElementById("scroll-text");

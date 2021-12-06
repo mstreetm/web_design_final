@@ -1,16 +1,25 @@
 /* Sets the height of the html and body elements to the full window */
 html, body{
   height: 100%;
+  color: white;
+}
+
+code{
+  color: white;
 }
 
 .background{
   position: relative;
   background-attachment: fixed;
-  height: 100%;
+  min-height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: darkgrey;
+}
+
+h1, h2{
+  text-align: center;
 }
 
 /* applies to md screens and larger */
@@ -25,11 +34,22 @@ html, body{
   p, .p-sized{
     font-size: 3vw;
   }
+
+  h1{
+    font-size: 8vw;
+  }
 }
 
 /* applies to sm screens */
 @media only screen and (min-width:576px) and (max-width:768px){
   p, .p-sized{
     font-size: 3vw;
+  }
+}
+
+/* applies to sm screens and larger */
+@media only screen and (min-width:576px){
+  h1{
+    font-size: 5vw;
   }
 }
