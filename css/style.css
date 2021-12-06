@@ -1,0 +1,35 @@
+/* Sets the height of the html and body elements to the full window */
+html, body{
+  height: 100%;
+}
+
+.background{
+  position: relative;
+  background-attachment: fixed;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: darkgrey;
+}
+
+/* applies to md screens and larger */
+@media only screen and (min-width: 769px){
+  p, .p-sized{
+    font-size: 2vw;
+  }
+}
+
+/* applies to xs screens */
+@media only screen and (max-width:575px){
+  p, .p-sized{
+    font-size: 3vw;
+  }
+}
+
+/* applies to sm screens */
+@media only screen and (min-width:576px) and (max-width:768px){
+  p, .p-sized{
+    font-size: 3vw;
+  }
+}

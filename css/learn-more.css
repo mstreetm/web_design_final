@@ -1,0 +1,15 @@
+#section-1{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop_code_coffee_final.jpg");
+}
+
+#section-2{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/women_workplace.jpg");
+}
+
+#section-3{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop_phone_table.jpg");
+}
+
+#section-4{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/female_programming.jpg");
+}
