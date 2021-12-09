@@ -15,7 +15,8 @@ code{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: darkgrey;
+  background-color: rgba(100,100,100);
+  background-image: linear-gradient(rgba05,0,0,0.5),rgba(0, 0, 0, 0.5));
 }
 
 h1, h2, .btn{
@@ -50,6 +51,6 @@ h1, h2, .btn{
 /* applies to sm screens and larger */
 @media only screen and (min-width:576px){
   h1{
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
