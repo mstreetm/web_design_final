@@ -4,6 +4,10 @@ html, body{
   color: white;
 }
 
+body{
+  padding-top: 40px;
+}
+
 code{
   color: white;
 }
@@ -16,20 +20,20 @@ code{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(100,100,100);
-  background-image: linear-gradient(rgba05,0,0,0.5),rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(rgba(0,0,0.5),rgba(0, 0, 0, 0.5));
 }
 
-h1, h2, .btn{
+h1, h2, .btn, .title{
   text-align: center;
 }
 
 .section-head{
-  padding-top: 15vh;
+  padding-top: 10vh;
 }
 
 .section-body{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .yt-video {
@@ -83,5 +87,19 @@ a{
 @media only screen and (min-width:576px){
   h1{
     font-size: 4vw;
+  }
+}
+
+/* applies to sm screens and larger */
+@media only screen and (min-width:576px){
+  .title{
+    font-size: 5.5vw;
+  }
+}
+
+/* applies to xs screens */
+@media only screen and (max-width:575px){
+  .title{
+    font-size: 9vw;
   }
 }
