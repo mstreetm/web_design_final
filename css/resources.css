@@ -1,4 +1,9 @@
-.anchor::before {
+#section-1{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/mac_iphone.jpg");
+}
+
+/* prevents the nav from covering the wanted text when sections are jumped to */
+.anchor::before{
   display: block;
   content: " ";
   margin-top: -56px;
@@ -7,33 +12,36 @@
   pointer-events: none;
 }
 
+/* aligns the sidebar in the center od its space */
 #sidebar{
   text-align: center;
 }
 
+/* removes the bullets */
 #sidebar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#section-1{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/mac_iphone.jpg");
-}
-
+/* applies to xs and sm screens */
 @media only screen and (max-width: 767px){
+  /* positions the sidebar above the main text */
   #sidebar{
     position: relative;
   }
 }
 
+/* applies to md screens and larger */
 @media only screen and (min-width: 768px){
+  /* positions the sidebar to the left of  the main text and level with the page title */
   #sidebar{
     position: fixed;
     top: Calc(56px + 15vh);
   }
 }
 
+/* properly indents the headings */
 h2{
   padding-left: 10vw;
 }

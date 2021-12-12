@@ -4,14 +4,17 @@ html, body{
   color: white;
 }
 
+/* makes main content not extend into the navbar */
 body{
-  padding-top: 40px;
+  padding-top: 56px;
 }
 
+/* changes the color of code from pinkish to white */
 code{
   color: white;
 }
 
+/* general things for all the backgrounds(sizing, placement, and backup color) */
 .background{
   position: relative;
   background-attachment: fixed;
@@ -20,22 +23,26 @@ code{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(100,100,100);
-  background-image: linear-gradient(rgba(0,0,0.5),rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 }
 
+/* aligns buttons and titles in the center */
 h1, .btn, .title{
   text-align: center;
 }
 
+/* padding for the section headings */
 .section-head{
   padding-top: 10vh;
 }
 
+/* padding for the section bodies */
 .section-body{
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
 
+/* (next 3) properly position and size videos */
 .yt-video {
   margin: 0px auto;
 }
@@ -54,29 +61,24 @@ h1, .btn, .title{
   height: 100%;
 }
 
+/* change the default link color */
 a{
   color:#0dcaf0;
 }
 
-/* applies to md screens and larger */
-@media only screen and (min-width: 769px){
-  p, .p-sized{
-    font-size: 2vw;
-  }
-
-  h3{
-    font-size: 2.75vw;
-  }
-
-  h4{
-    font-size: 2.4vw;
-  }
-}
-
+/* responsive text sizing */
 /* applies to xs screens */
 @media only screen and (max-width:575px){
   p, .p-sized{
     font-size: 3vw;
+  }
+
+  .title{
+    font-size: 9vw;
+  }
+
+  h1{
+    font-size: 8vw;
   }
 
   h2{
@@ -89,10 +91,6 @@ a{
 
   h4{
     font-size: 3.5vw;
-  }
-
-  h1{
-    font-size: 8vw;
   }
 }
 
@@ -113,6 +111,10 @@ a{
 
 /* applies to sm screens and larger */
 @media only screen and (min-width:576px){
+  .title{
+    font-size: 5.5vw;
+  }
+
   h1{
     font-size: 4vw;
   }
@@ -122,16 +124,17 @@ a{
   }
 }
 
-/* applies to sm screens and larger */
-@media only screen and (min-width:576px){
-  .title{
-    font-size: 5.5vw;
+/* applies to md screens and larger */
+@media only screen and (min-width: 769px){
+  p, .p-sized{
+    font-size: 2vw;
   }
-}
 
-/* applies to xs screens */
-@media only screen and (max-width:575px){
-  .title{
-    font-size: 9vw;
+  h3{
+    font-size: 2.75vw;
+  }
+
+  h4{
+    font-size: 2.4vw;
   }
 }

@@ -1,3 +1,4 @@
+/* Section background images with a 50% opacity black filter */
 #section-1{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop_code_coffee_final.jpg");
 }
