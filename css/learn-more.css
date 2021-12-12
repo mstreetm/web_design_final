@@ -13,3 +13,7 @@
 #section-4{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/female_programming.jpg");
 }
+
+#section-5{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop_plant.jpg");
+}
