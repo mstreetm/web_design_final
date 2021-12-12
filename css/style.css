@@ -68,7 +68,7 @@ a{
 
 /* responsive text sizing */
 /* applies to xs screens */
-@media only screen and (max-width:575px){
+@media only screen and (max-width: 575px){
   p, .p-sized{
     font-size: 3vw;
   }
@@ -95,7 +95,7 @@ a{
 }
 
 /* applies to sm screens */
-@media only screen and (min-width:576px) and (max-width:768px){
+@media only screen and (min-width: 576px) and (max-width: 768px){
   p, .p-sized{
     font-size: 2.5vw;
   }
@@ -110,7 +110,7 @@ a{
 }
 
 /* applies to sm screens and larger */
-@media only screen and (min-width:576px){
+@media only screen and (min-width: 576px){
   .title{
     font-size: 5.5vw;
   }
