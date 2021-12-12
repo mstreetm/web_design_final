@@ -8,9 +8,36 @@
 }
 
 #sidebar{
-  position: fixed;
+  text-align: center;
+}
+
+#sidebar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #section-1{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/mac_iphone.jpg");
+}
+
+@media only screen and (max-width: 767px){
+  #sidebar{
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  #sidebar{
+    position: fixed;
+    top: Calc(56px + 15vh);
+  }
+}
+
+h2{
+  padding-left: 10vw;
+}
+
+h3{
+  padding-left: 5vw;
 }
