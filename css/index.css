@@ -1,6 +1,6 @@
 /* fills the container with a background of a laptop*/
 #bg-laptop{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/laptop_with_code_compressed.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/laptop_with_code_compressed.jpg");
 }
 
 /* aligns the class title in the center of the page and spaces it 10% of the page height from the bottom of the previous container */

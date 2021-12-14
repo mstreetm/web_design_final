@@ -1,5 +1,5 @@
 #section-1{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/mac_iphone.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/mac_iphone.jpg");
 }
 
 /* prevents the nav from covering the wanted text when sections are jumped to */
